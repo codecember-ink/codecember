@@ -1,0 +1,19 @@
+{
+  "__": "This mock data",
+  "2020/12/20": [
+    {
+      "post_link": "https://twitter.com/octref/status/1332008194273550336",
+      "media_link": "https://pbs.twimg.com/media/Enw-YygVoAADKN-?format=jpg&name=medium",
+      "demo_link": "https://100.matsu.io/20",
+      "author": "Pine",
+      "author_handle": "octref"
+    },
+    {
+      "post_link": "https://twitter.com/antfu7/status/1332369363039490048",
+      "media_link": "https://pbs.twimg.com/card_img/1332368523776049155/TkPJSXkN?format=png&name=medium",
+      "demo_link": "https://100.antfu.me/022",
+      "author": "Anthony Fu",
+      "author_handle": "antfu7"
+    }
+  ]
+}

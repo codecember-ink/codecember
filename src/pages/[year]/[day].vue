@@ -1,5 +1,5 @@
 <template>
-  <p>{{ year }} / 12 / {{ day }}</p>
+  <p>[ {{ year }} / 12 / {{ day }} ]</p>
 </template>
 
 <script setup lang="ts">
@@ -7,11 +7,11 @@ import { defineProps } from 'vue'
 
 const props = defineProps({
   year: {
-    type: Number,
+    type: String,
     required: true,
   },
   day: {
-    type: Number,
+    type: String,
     required: true,
   },
 })

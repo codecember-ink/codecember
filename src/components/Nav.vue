@@ -18,7 +18,7 @@
       </a>
     </p>
 
-    <p>
+    <p class="flex flex-wrap">
       <router-link
         v-for="i in 31"
         :key="i"
@@ -28,6 +28,7 @@
       >
         {{ i }}
       </router-link>
+      <span class="flex-auto" />
     </p>
   </div>
 </template>

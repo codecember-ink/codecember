@@ -4,9 +4,12 @@ import { useRoute, useRouter } from 'vue-router'
 
 const _now = dayjs()
 
-export const start_year = 2018
-export const this_year = _now.month() >= 11 ? _now.year() : (_now.year() - 1)
-export const event_active = _now.month() === 11 // it's december
+const DEC = 10 // TODO: 11
+
+export const start_year = 2018 // TODO: 2020
+export const this_year = _now.month() >= DEC ? _now.year() : (_now.year() - 1)
+
+export const event_active = _now.month() === DEC
 export const today = event_active ? _now.date() : 32
 
 export const years = new Array(this_year - start_year + 1).fill(0).map((_, i) => start_year + i)

@@ -1,4 +1,5 @@
 /* eslint-disable @typescript-eslint/no-var-requires */
+const theme = '#1ba9bf'
 
 module.exports = {
   purge: {
@@ -15,6 +16,9 @@ module.exports = {
       opacity: {
         10: '0.1',
         85: '0.85',
+      },
+      colors: {
+        theme,
       },
     },
   },

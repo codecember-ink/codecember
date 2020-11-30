@@ -1,12 +1,12 @@
 <template>
   <div class="mb-4">
     <p>
-      <span class="font-bold">
+      <router-link to="/" class="font-bold">
         Codecember
-      </span>
+      </router-link>
     </p>
 
-    <p>
+    <p v-if="false">
       <a
         v-for="i in years_reverse"
         :key="i"

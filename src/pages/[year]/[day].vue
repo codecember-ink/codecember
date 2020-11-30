@@ -1,5 +1,7 @@
 <template>
-  <p>[ {{ year }} / 12 / {{ day }} ]</p>
+  <p class="my-8 mb-5 opacity-50">
+    [ {{ year }} / 12 / {{ day }} ]
+  </p>
   <gallery :posts="posts" />
 </template>
 

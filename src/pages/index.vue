@@ -1,11 +1,12 @@
 <template>
-  <DayPage :day="day" :year="year" />
+  <p class="my-8 mb-5 opacity-50">
+    About
+  </p>
+  <p>
+    Learn and create computation form, one sketch a day.<br>
+    Created by <a class="link" href="https://twitter.com/octref" target="_blank">@octref</a> and <a class="link" href="https://twitter.com/antfu7" target="_blank">@antfu7</a>.
+  </p>
 </template>
 
 <script setup lang="ts">
-import { useDate } from '/~/logics/date'
-// @ts-ignore
-import DayPage from './[year]/[day].vue'
-
-const { day, year } = useDate()
 </script>

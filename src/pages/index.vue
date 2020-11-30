@@ -66,7 +66,7 @@
   </p>
   <br>
   <p>
-    Join us by following the <a href="https://twitter.com/codecember_ink" class="link">Twitter account</a>. We look forward to seeing you
+    Join us by following our <a href="https://twitter.com/codecember_ink" class="link">Twitter account</a>. We look forward to seeing you
     on the <a href="https://twitter.com/hashtag/codecember" class="link">#codecember</a> hashtag!
   </p>
   <br>
@@ -88,6 +88,9 @@
   display: flex;
   flex-flow: row;
   justify-content: center;
+}
+.horizontal-images figure {
+  padding: 1rem 2rem;
 }
 .horizontal-images img {
   width: 400px;

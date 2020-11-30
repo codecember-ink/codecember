@@ -4,9 +4,9 @@ import { useRoute, useRouter } from 'vue-router'
 
 const _now = dayjs()
 
-const DEC = 10 // TODO: 11
+const DEC = 11
 
-export const start_year = 2018 // TODO: 2020
+export const start_year = 2020
 export const this_year = _now.month() >= DEC ? _now.year() : (_now.year() - 1)
 
 export const event_active = _now.month() === DEC
@@ -27,7 +27,7 @@ export function useDate() {
     (path) => {
       if (path !== '/') {
         const [, _year, _day] = route.path.split('/')
-        year.value = +_year ?? year.value
+        year.value = (+_year ?? year.value) || this_year
         day.value = +_day ?? day.value
       }
     },

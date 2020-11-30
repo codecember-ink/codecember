@@ -10,6 +10,8 @@
     and we would love to share the journey with you.
   </p>
 
+  <br>
+
   <div class="horizontal-images">
     <figure>
       <img src="/pine-12.png" alt="Pine Day 12" width="400" height="400">

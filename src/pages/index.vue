@@ -57,7 +57,7 @@
   </p>
   <br>
   <p>
-    That's ok! We both don't have much experience in creative coding before and we are busy as well. Unlike other coding challenges such
+    That's ok! We both don't have much experience in creative coding before and we are busy as well. Unlike other challenges such
     as <a href="https://inktober.com" class="link">Inktober</a> or <a href="http://codevember.xyz" class="link">Codevember</a>, Codecember
     is designed for busy beginners like you and me. Everyday, we'll post a finished sketch <b>with its source code</b> as the inspirational
     prompt, and your job is to understand, recreate and remix it. The least you get out of every day is having <b>learned</b> a new compform.

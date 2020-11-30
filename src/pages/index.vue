@@ -46,7 +46,7 @@
   <ul class="list-disc list-inside">
     <li>We'll give you a prompt every day that includes an artwork, its source code and a blurb</li>
     <li>One sketch a day (you can be late, we both have been late)</li>
-    <li>Post your artwork on Twitter with the <a href="https://twitter.com/hashtag/codecember" class="link">#codecember</a> tag and a day tag such as <a href="https://twitter.com/hashtag/day1" class="link">#day1</a>
+    <li>Post your artwork on Twitter with the <a href="https://twitter.com/hashtag/codecember" class="link">#codecember</a> tag and a day tag such as <a href="https://twitter.com/hashtag/day1" class="link">#day1</a></li>
     <li>Link to the source code, so others can learn & remix (GitHub/CodeSandbox/Codepen/Glitch/whatever)</li>
   </ul>
   <br>

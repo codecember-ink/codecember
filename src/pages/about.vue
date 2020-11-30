@@ -12,11 +12,11 @@
 
   <div class="horizontal-images">
     <figure>
-      <img src="/pine-12.png" alt="Pine Day 12" width="400" height="400">
+      <img src="/pine-12.png" alt="Pine Day 12" width="320" height="320">
       <figcaption>Pine, Day 12</figcaption>
     </figure>
     <figure>
-      <img src="/anthony-plum-13.jpg" alt="Anthony's Plum" width="400" height="400">
+      <img src="/anthony-plum-13.jpg" alt="Anthony's Plum" width="320" height="320">
       <figcaption>Day 13, Plum by Anthony</figcaption>
     </figure>
   </div>
@@ -41,10 +41,29 @@
   </ul>
   <br>
   <p>
-    You might ask, how do I do the sketch?
+    You might say, "how do I do the sketch though? I haven't done much creative coding whatsoever."
+    <br>
+    Or you are worried: "I'm kinda busy and only have 30 minutes everyday. Can I still do it?"
   </p>
+  <br>
   <p>
-    By <a href="https://twitter.com/octref" class="link">Pine</a> & <a href="https://twitter.com/antfu7" class="link">Anthony</a>.
+    That's ok! We both don't have much experience in creative coding before and we are busy as well. Unlike other coding challenges such
+    as <a href="https://inktober.com" class="link">Inktober</a> or <a href="http://codevember.xyz" class="link">Codevember</a>, Codecember
+    is designed for busy beginners like you and me. Everyday, we'll post a finished sketch <b>with its source code</b> as the inspirational
+    prompt, and your job is to understand, recreate and remix it. The least you get out of every day is having <b>learned</b> a new compform.
+    Seriously, just copying the code line by line to understand the logic & tweaking the constants to explore the form is totally fine. Take
+    this as an opportunity for learning and exploration, rather than a serious commitment for "art".
+  </p>
+  <br>
+  <p>
+    Join us by following the <a href="https://twitter.com/codecember_ink" class="link">Twitter account</a>. We look forward to seeing you
+    on the <a href="https://twitter.com/hashtag/codecember" class="link">#codecember</a> hashtag!
+  </p>
+  <br>
+  <p>
+    Yours,
+    <br>
+    <a href="https://twitter.com/octref" class="link">Pine</a> & <a href="https://twitter.com/antfu7" class="link">Anthony</a>.
   </p>
 </template>
 
@@ -58,10 +77,11 @@
 .horizontal-images {
   display: flex;
   flex-flow: row;
+  justify-content: center;
 }
 .horizontal-images img {
-  width: 400px;
-  height: 400px;
+  width: 320px;
+  height: 320px;
 
   margin-bottom: 1rem;
 

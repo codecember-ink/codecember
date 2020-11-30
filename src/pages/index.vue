@@ -23,11 +23,11 @@
   <div class="horizontal-images">
     <figure>
       <img src="/pine-12.png" alt="Pine Day 12" width="320" height="320">
-      <figcaption>Pine, Day 12</figcaption>
+      <figcaption><a href="https://100.matsu.io/12" class="link">Day 12</a> by Pine</figcaption>
     </figure>
     <figure>
       <img src="/anthony-plum-13.jpg" alt="Anthony's Plum" width="320" height="320">
-      <figcaption>Day 13, Plum by Anthony</figcaption>
+      <figcaption><a href="https://100.antfu.me/013" class="link">Day 13, Plum</a> by Anthony</figcaption>
     </figure>
   </div>
 

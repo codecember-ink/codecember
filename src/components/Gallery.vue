@@ -1,6 +1,11 @@
 <template>
   <div class="flex gap-6 py-6">
-    <Post v-for="post of posts" :key="post.post_link" :post="post" />
+    <template v-if="posts.length">
+      <Post v-for="post of posts" :key="post.post_link" :post="post" />
+    </template>
+    <p v-else>
+      <em class="opacity-75">There is no post for this day yet.<em /></em>
+    </p>
   </div>
 </template>
 

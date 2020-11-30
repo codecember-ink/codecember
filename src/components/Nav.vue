@@ -7,15 +7,15 @@
     </p>
 
     <p v-if="false">
-      <a
+      <router-link
         v-for="i in years_reverse"
         :key="i"
         :class="i == year ? 'text-theme opacity-100 underline' : 'text-gray-400'"
         class="mr-3 opacity-75 hover:opacity-100 cursor-pointer"
-        @click="year = i"
+        :to="`/${i}/${day}`"
       >
         {{ i }}
-      </a>
+      </router-link>
     </p>
 
     <p class="flex flex-wrap">

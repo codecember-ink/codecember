@@ -1,6 +1,6 @@
 <template>
-  <p class="my-8 mb-5 opacity-50">
-    About
+  <p class="my-8 mb-5">
+    <router-link to="/about" class="link">About</router-link>
   </p>
   <p>
     Learn and create computation form, one sketch a day.<br>

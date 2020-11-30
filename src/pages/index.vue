@@ -12,7 +12,7 @@
   </p>
   <p>
     We are <a href="https://twitter.com/octref" class="link">Pine</a> & <a href="https://twitter.com/antfu7" class="link">Anthony</a>.
-    Codecember is a challenge to do one compform (computational form) sketch a day throughout December, 2020.
+    Codecember is an invitation to learn and create compform (computation form), one sketch a day, throughout December, 2020.
     We are both doing 100-day compform challenges
     (<a href="https://100.matsu.io" class="link">Pine's gallery</a>, <a href="https://100.antfu.me" class="link">Anthony's gallery</a>)
     and we would love to share the journey with you.
@@ -65,7 +65,7 @@
   </p>
   <br>
   <p>
-    Seriously, just copying the code line by line to understand the logic & tweaking the constants to explore the form is totally fine. Take
+    Seriously, just copying the code line by line to understand the logic & tweaking the constants to explore the form are totally fine. Take
     this as an opportunity for learning and exploration, rather than a serious commitment for "art".
   </p>
   <br>

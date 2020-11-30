@@ -35,6 +35,8 @@ export function useDate() {
   )
 
   watch([year, day], () => {
+    if (!year.value || !day.value)
+      return
     const path = `/${year.value}/${day.value}`
     if (route.path !== path)
       router.push(path)

@@ -1,6 +1,7 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+@import './markdown.postcss';
 
 html,
 body,
@@ -18,8 +19,9 @@ html.dark {
 
 .link {
   @apply cursor-pointer opacity-50;
+
+  &:hover {
+    @apply opacity-100;
+  }
 }
 
-.link:hover {
-  @apply opacity-100;
-}

@@ -1,4 +1,4 @@
-import './main.postcss'
+import './css/index.postcss'
 import { createApp } from 'vue'
 import { createRouter, createWebHistory } from 'vue-router'
 

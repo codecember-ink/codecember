@@ -17,19 +17,16 @@ export const years_reverse = [...years].reverse()
 
 export function useDate() {
   const year = ref(this_year)
-  const day = ref(event_active ? today : '1')
+  const day = ref(0)
 
   const route = useRoute()
-  const router = useRouter()
 
   watch(
     () => route.path,
     (path) => {
-      if (path !== '/') {
-        const [, _year, _day] = route.path.split('/')
-        year.value = (+_year ?? year.value) || this_year
-        day.value = +_day ?? day.value
-      }
+      const [, _year, _day] = path.split('/')
+      year.value = +_year || this_year
+      day.value = +_day
     },
     { immediate: true },
   )

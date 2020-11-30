@@ -3678,6 +3678,13 @@ vite-plugin-components@^0.4.1:
     fast-glob "^3.2.4"
     minimatch "^3.0.4"
 
+vite-plugin-md@^0.1.2:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/vite-plugin-md/-/vite-plugin-md-0.1.2.tgz#b474ff04d726bd1652c0e8ec43e90aac5e3e2820"
+  integrity sha512-Ro4mhJY79g1BG7Iu/NZfn8uFhqEL/QQtN6UqQolnxEmF4NAEFDfPdxZ0W+TZnFxGbDeCaiyczOkLoNZza3PsfA==
+  dependencies:
+    markdown-it "^12.0.2"
+
 vite-plugin-purge-icons@^0.4.5:
   version "0.4.5"
   resolved "https://registry.yarnpkg.com/vite-plugin-purge-icons/-/vite-plugin-purge-icons-0.4.5.tgz#0486c0fa10a6d8e6d8b47e4a12d329fe46b0ae65"

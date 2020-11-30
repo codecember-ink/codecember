@@ -3,18 +3,11 @@ import { UserConfig } from 'vite'
 import Voie from 'vite-plugin-voie'
 import PurgeIcons from 'vite-plugin-purge-icons'
 import ViteComponents from 'vite-plugin-components'
-import MD from 'markdown-it'
-import { compileTemplate } from '@vue/compiler-sfc'
+import Markdown from 'vite-plugin-md'
 
 const alias = {
   '/~/': path.resolve(__dirname, 'src'),
 }
-
-const md = new MD({
-  html: true,
-  linkify: true,
-  typographer: true,
-})
 
 const config: UserConfig = {
   alias,
@@ -36,31 +29,7 @@ const config: UserConfig = {
       alias,
     }),
     PurgeIcons(),
-  ],
-  transforms: [
-    {
-      test({ path }) {
-        return path.endsWith('.md')
-      },
-      transform({ code, isBuild, path }) {
-        let { code: result } = compileTemplate({
-          filename: path,
-          id: path,
-          source: md.render(code, {}),
-          transformAssetUrls: false,
-        })
-
-        result = result.replace('export function render', 'function render')
-        result += '\nconst __script = { render };'
-
-        if (!isBuild)
-          result += `\n__script.__hmrId = ${JSON.stringify(path)};`
-
-        result += '\nexport default __script;'
-
-        return result
-      },
-    },
+    Markdown(),
   ],
 }
 

@@ -46,7 +46,7 @@ const isDayAvailiable = (d: number) => {
 }
 </script>
 
-<style lang="postcss"  scoped>
+<style lang="postcss" scoped>
 .day-link {
   @apply mr-3 opacity-50 hover:opacity-100;
 }

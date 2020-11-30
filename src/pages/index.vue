@@ -46,8 +46,8 @@
   <ul class="list-disc list-inside">
     <li>We'll give you a prompt every day that includes an artwork, its source code and a blurb</li>
     <li>One sketch a day (you can be late, we both have been late)</li>
-    <li>Post your artwork on Twitter with the <a href="https://twitter.com/hashtag/codecember" class="link">#codecember</a> tag</li>
-    <li>Link to the source code, so others can learn & remix (GitHub/GitLab/Codepen/Glitch/etc)</li>
+    <li>Post your artwork on Twitter with the <a href="https://twitter.com/hashtag/codecember" class="link">#codecember</a> tag and a day tag such as <a href="https://twitter.com/hashtag/day1" class="link">#day1</a>
+    <li>Link to the source code, so others can learn & remix (GitHub/CodeSandbox/Codepen/Glitch/whatever)</li>
   </ul>
   <br>
   <p>
@@ -59,8 +59,12 @@
   <p>
     That's ok! We both don't have much experience in creative coding before and we are busy as well. Unlike other challenges such
     as <a href="https://inktober.com" class="link">Inktober</a> or <a href="http://codevember.xyz" class="link">Codevember</a>, Codecember
-    is designed for busy beginners like you and me. Everyday, we'll post a finished sketch <b>with its source code</b> as the inspirational
-    prompt, and your job is to understand, recreate and remix it. The least you get out of every day is having <b>learned</b> a new compform.
+    is designed for busy beginners like you and me. Everyday, we'll post an inspirational sketch <b>with its source code</b> as the
+    prompt, and your job is to understand, recreate and remix it.
+    The least you get out of every day is having <b>learned</b> a new compform.
+  </p>
+  <br>
+  <p>
     Seriously, just copying the code line by line to understand the logic & tweaking the constants to explore the form is totally fine. Take
     this as an opportunity for learning and exploration, rather than a serious commitment for "art".
   </p>

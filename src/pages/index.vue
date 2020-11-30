@@ -84,14 +84,12 @@
 <script setup lang="ts">
 </script>
 
-<style scoped>
+<style lang="postcss" scoped>
 .comic {
   font-family: 'Comic Sans MS', sans-serif;
 }
 .horizontal-images {
-  display: flex;
-  flex-flow: row;
-  justify-content: center;
+  @apply flex flex-wrap justify-center;
 }
 .horizontal-images figure {
   padding: 1rem 2rem;
@@ -99,9 +97,7 @@
 .horizontal-images img {
   width: 400px;
   height: 400px;
-
   margin-bottom: 1rem;
-
   border: 1px solid #ffffff00;
 }
 .horizontal-images figure:hover img {

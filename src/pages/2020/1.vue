@@ -73,7 +73,7 @@
 </template>
 
 <script lang="ts">
-import * as p5 from 'p5'
+/// <reference path="../node_modules/@types/p5/global.d.ts" />
 import { defineComponent } from 'vue'
 
 var colors = {

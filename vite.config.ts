@@ -23,7 +23,9 @@ const config: UserConfig = {
       },
       extensions: ['vue', 'md'],
     }),
-    Markdown(),
+    Markdown({
+      wrapperComponent: 'day-wrapper',
+    }),
     ViteComponents({
       alias,
       dirs: [

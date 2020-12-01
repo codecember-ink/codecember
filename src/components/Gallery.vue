@@ -1,5 +1,5 @@
 <template>
-  <div class="flex gap-6 py-6">
+  <div class="flex gap-6 py-4">
     <template v-if="posts.length">
       <Post v-for="post of posts" :key="post.post_link" :post="post" />
     </template>

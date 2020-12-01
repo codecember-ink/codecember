@@ -95,8 +95,7 @@
   padding: 1rem 2rem;
 }
 .horizontal-images img {
-  width: 400px;
-  height: 400px;
+  width: 350px;
   margin-bottom: 1rem;
   border: 1px solid #ffffff00;
 }

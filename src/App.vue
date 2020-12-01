@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto px-10 py-12 text-gray-700 dark:text-gray-200">
+  <div class="container mx-auto px-6 py-8 md:px-10 md:py-12 text-gray-700 dark:text-gray-200">
     <Nav />
     <router-view />
     <Footer />

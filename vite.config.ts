@@ -23,13 +23,17 @@ const config: UserConfig = {
       },
       extensions: ['vue', 'md'],
     }),
+    Markdown(),
     ViteComponents({
-      // currently, vite does not provide an API for plugins to get the config https://github.com/vitejs/vite/issues/738
-      // as the `alias` changes the behavior of middlewares, you have to pass it to ViteComponents to do the resolving
       alias,
+      dirs: [
+        'src/components',
+        'src/sketches',
+      ],
+      extensions: ['vue', 'md'],
+      customLoaderMatcher: ({ path }) => path.endsWith('.md'),
     }),
     PurgeIcons(),
-    Markdown(),
   ],
 }
 

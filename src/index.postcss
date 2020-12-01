@@ -26,8 +26,10 @@ html.dark {
 
 .markdown-body {
   padding: 20px 0;
-  
-  h1, h2, h3 {
+
+  h1,
+  h2,
+  h3 {
     font-size: 1rem;
     font-weight: bold;
     margin-bottom: 1rem;
@@ -41,5 +43,24 @@ html.dark {
   }
   p {
     margin-bottom: 1rem;
+  }
+  blockquote {
+    @apply p-4 italic border-l-4 bg-gray-50 text-gray-600 border-gray-200;
+    margin-bottom: 1rem;
+  }
+  blockquote p {
+    margin-bottom: 0;
+  }
+  img {
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+  }
+  ul {
+    margin-bottom: 1rem;
+  }
+  li {
+    list-style: inside;
   }
 }

@@ -1,0 +1,90 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import './nprogress.css';
+
+html,
+body,
+#app {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  word-break: break-word;
+  @apply font-mono;
+}
+
+html.dark {
+  background: #222;
+}
+
+.link {
+  @apply cursor-pointer opacity-50;
+
+  &:hover {
+    @apply opacity-100;
+  }
+}
+
+.markdown-body {
+  @apply pt-6 pb-4;
+
+  h1,
+  h2,
+  h3 {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  a {
+    cursor: pointer;
+    opacity: 0.5;
+  }
+  a:hover {
+    opacity: 1;
+  }
+  p {
+    margin-bottom: 1rem;
+  }
+  blockquote {
+    @apply p-4 italic border-l-4 border-opacity-25 border-gray-500;
+    margin-bottom: 1rem;
+  }
+  blockquote p {
+    @apply opacity-85;
+    margin-bottom: 0;
+  }
+  img {
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+  }
+  ul {
+    margin-bottom: 1rem;
+  }
+  li {
+    list-style: inside;
+  }
+}
+
+.comic {
+  font-family: 'Comic Sans MS', sans-serif;
+}
+
+.horizontal-images {
+  @apply flex flex-wrap justify-center;
+
+  figure {
+    padding: 1rem 2rem;
+  }
+  img {
+    width: 350px;
+    margin-bottom: 1rem;
+    border: 1px solid #ffffff00;
+  }
+  figure:hover img {
+    border: 1px solid #eee;
+  }
+}

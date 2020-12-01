@@ -20,14 +20,14 @@
         pointing towards a point in space.
       </p>
     </blockquote>
-    <img alt="Dropbox Design Hoodie" src="/2020/1/dropbox-design-hoodie.jpg" width="400px" />
+    <img alt="Dropbox Design Hoodie" src="/2020/1/dropbox-design-hoodie.jpg" width="400px">
     <p>
       Here’s Daniel’s sketch on <a href="https://codepen.io/daneden/pen/MjNZJa">CodePen</a>.
-      <br />
+      <br>
       We have reproduced it below:
     </p>
 
-    <div id="sketch"></div>
+    <div id="sketch" />
 
     <p>
       Your task is to recreate it. We suggest that you use <a href="https://p5js.org">p5.js</a>, which is easy to get
@@ -61,7 +61,7 @@
     </p>
     <p>
       Yours,
-      <br />
+      <br>
       <a href="https://twitter.com/octref" class="link">Pine</a> &
       <a href="https://twitter.com/antfu7" class="link">Anthony</a>
     </p>
@@ -77,7 +77,7 @@
 import { defineComponent } from 'vue'
 import { isDark } from '/~/logics'
 
-var colors = {
+const colors = {
   a1: '#ff2d5d',
   a2: '#42dc8e',
   a3: '#2e43eb',
@@ -85,20 +85,20 @@ var colors = {
   b1: '#96bfed',
   b2: '#f5ead6',
   b3: '#f1f3f7',
-  b4: '#e2e6ef'
+  b4: '#e2e6ef',
 }
 
-var canvasWidth = 300,
-  canvasHeight = canvasWidth,
-  length = 8,
-  margin = 10,
-  strokeWidth = 2,
-  columns = getNoOfCols(canvasWidth, length, margin),
-  rows = getNoOfRows(canvasHeight, strokeWidth, margin)
+const canvasWidth = 300
+const canvasHeight = canvasWidth
+const length = 8
+const margin = 10
+const strokeWidth = 2
+const columns = getNoOfCols(canvasWidth, length, margin)
+const rows = getNoOfRows(canvasHeight, strokeWidth, margin)
 
 function getNoOfCols(w: number, length: number, m: number) {
-  var totalLength = 0,
-    noOfCols = 0
+  let totalLength = 0
+  let noOfCols = 0
 
   m = m || 0
 
@@ -116,39 +116,39 @@ function getNoOfRows(h: number, sw: number, m: number) {
 
 export default defineComponent({
   mounted() {
-    let myp5 = new p5((s: p5) => {
+    const myp5 = new p5((s: p5) => {
       s.setup = () => {
         s.createCanvas(canvasWidth, canvasHeight)
       }
 
       s.draw = () => {
         s.background(isDark.value ? '#222' : '#fff')
-        for (var i = 0; i < rows - 1; i++) {
-          for (var j = 0; j < columns - 1; j++) {
-            var currentOffset = {
+        for (let i = 0; i < rows - 1; i++) {
+          for (let j = 0; j < columns - 1; j++) {
+            const currentOffset = {
               x: j * length + (j + 1) * margin,
-              y: (i + 1) * margin + i * strokeWidth + strokeWidth
+              y: (i + 1) * margin + i * strokeWidth + strokeWidth,
             }
 
-            var centerPoint = {
+            const centerPoint = {
               x: (currentOffset.x + (currentOffset.x + length)) / 2,
-              y: (currentOffset.y + (currentOffset.y + length)) / 2
+              y: (currentOffset.y + (currentOffset.y + length)) / 2,
             }
 
-            var delta = {
+            const delta = {
               x: currentOffset.x + length / 2 - margin / 2 - s.mouseX,
-              y: currentOffset.y - s.mouseY
+              y: currentOffset.y - s.mouseY,
             }
 
-            var theta = Math.atan2(delta.y, delta.x),
-              deltaThreshold = 40
+            const theta = Math.atan2(delta.y, delta.x)
+            const deltaThreshold = 40
 
             s.strokeWeight(strokeWidth)
             s.stroke(100)
 
             if (Math.abs(delta.x) < deltaThreshold && Math.abs(delta.y) < deltaThreshold) {
-              var amt = (Math.abs(delta.x) + Math.abs(delta.y)) / 2
-              var amtMapped = s.map(amt, 0, deltaThreshold, -50, 255)
+              const amt = (Math.abs(delta.x) + Math.abs(delta.y)) / 2
+              const amtMapped = s.map(amt, 0, deltaThreshold, -50, 255)
               s.stroke(100, amtMapped)
             }
 
@@ -166,7 +166,7 @@ export default defineComponent({
         }
       }
     }, 'sketch')
-  }
+  },
 })
 </script>
 

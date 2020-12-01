@@ -75,6 +75,7 @@
 <script lang="ts">
 /// <reference path="../node_modules/@types/p5/global.d.ts" />
 import { defineComponent } from 'vue'
+import { isDark } from '/~/logics'
 
 var colors = {
   a1: '#ff2d5d',
@@ -121,7 +122,7 @@ export default defineComponent({
       }
 
       s.draw = () => {
-        s.background(255)
+        s.background(isDark.value ? '#222' : '#fff')
         for (var i = 0; i < rows - 1; i++) {
           for (var j = 0; j < columns - 1; j++) {
             var currentOffset = {

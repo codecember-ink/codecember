@@ -27,7 +27,7 @@ html.dark {
 }
 
 .markdown-body {
-  padding: 20px 0;
+  @apply pt-6 pb-4;
 
   h1,
   h2,
@@ -47,10 +47,11 @@ html.dark {
     margin-bottom: 1rem;
   }
   blockquote {
-    @apply p-4 italic border-l-4 bg-gray-50 text-gray-600 border-gray-200;
+    @apply p-4 italic border-l-4 border-opacity-25 border-gray-500;
     margin-bottom: 1rem;
   }
   blockquote p {
+    @apply opacity-85;
     margin-bottom: 0;
   }
   img {
@@ -64,5 +65,25 @@ html.dark {
   }
   li {
     list-style: inside;
+  }
+}
+
+.comic {
+  font-family: 'Comic Sans MS', sans-serif;
+}
+
+.horizontal-images {
+  @apply flex flex-wrap justify-center;
+
+  figure {
+    padding: 1rem 2rem;
+  }
+  img {
+    width: 350px;
+    margin-bottom: 1rem;
+    border: 1px solid #ffffff00;
+  }
+  figure:hover img {
+    border: 1px solid #eee;
   }
 }

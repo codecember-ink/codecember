@@ -10,8 +10,18 @@
 import { useTitle } from '@vueuse/core'
 import { computed } from 'vue'
 import { useDate } from '/~/logics/date'
+import { useRouter } from 'vue-router'
+import NProgress from 'nprogress'
 
 const { year, day } = useDate()
+const router = useRouter()
+
+router.beforeEach(() => {
+  NProgress.start()
+})
+router.afterEach(() => {
+  NProgress.done()
+})
 
 useTitle(computed(() => {
   if (day.value)

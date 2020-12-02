@@ -1,5 +1,5 @@
 <template>
-  <div class="pt-4">
+  <div v-if="day" class="pt-4">
     <router-link class="link" :to="`/${year}/${day}`" :class="{active: !isGallery}">
       task
     </router-link>
@@ -8,7 +8,7 @@
       gallery
     </router-link>
   </div>
-  <template v-if="isGallery">
+  <template v-if="isGallery && day">
     <h1 class="mt-6 font-bold">
       Day {{ day }}
     </h1>

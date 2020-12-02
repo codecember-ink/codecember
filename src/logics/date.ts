@@ -1,6 +1,6 @@
 import dayjs from 'dayjs'
 import { ref, watch } from 'vue'
-import { useRoute, useRouter } from 'vue-router'
+import { useRoute } from 'vue-router'
 
 const _now = dayjs()
 

@@ -22,7 +22,7 @@
       <router-link
         v-for="i in 31"
         :key="i"
-        :to="isDayAvailiable(i) ? `/${year}/${i}` : null"
+        :to="isDayAvailiable(i) ? `/${year}/${i}` : ''"
         class="day-link "
         :class="{ 'active': i == day, 'unavaliable': !isDayAvailiable(i) }"
       >

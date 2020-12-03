@@ -58,14 +58,15 @@ async function fetch() {
 
   tweets = [...tweets, ...res.statuses]
   // }
-  fs.writeFileSync('raw.json', JSON.stringify(tweets, null, 2))
+  fs.writeFileSync('data/since_id.json', JSON.stringify(res.search_metadata.max_id_str, null, 2))
+  fs.writeFileSync('data/raw.json', JSON.stringify(tweets, null, 2))
 
   let processed = tweets.map(processData)
   const ids = processed.map(i => i.id)
 
   processed = processed.filter(i => !i.retweet_id || !ids.includes(i.retweet_id))
 
-  fs.writeFileSync('processed.json', JSON.stringify(processed, null, 2))
+  fs.writeFileSync('data/processed.json', JSON.stringify(processed, null, 2))
 }
 
 fetch()

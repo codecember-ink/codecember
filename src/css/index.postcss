@@ -34,12 +34,19 @@ html.dark {
 .markdown-body {
   @apply pt-6 pb-4;
 
+  h1, h2, h3,
+  p, blockquote,
+  figure, img,
+  ul, ol,
+  hr {
+    margin-bottom: 1rem;
+  }
+
   h1,
   h2,
   h3 {
     font-size: 1rem;
     font-weight: bold;
-    margin-bottom: 1rem;
   }
   a {
     cursor: pointer;
@@ -48,12 +55,8 @@ html.dark {
   a:hover {
     opacity: 1;
   }
-  p {
-    margin-bottom: 1rem;
-  }
   blockquote {
     @apply p-4 italic border-l-4 border-opacity-25 border-gray-500;
-    margin-bottom: 1rem;
   }
   blockquote p {
     @apply opacity-85;
@@ -63,16 +66,17 @@ html.dark {
     width: 350px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 1rem;
   }
   img.img-lg {
     width: 500px;
   }
-  ul {
-    margin-bottom: 1rem;
-  }
   li {
     list-style: inside;
+  }
+  figure figcaption {
+    text-align: right;
+    opacity: 0.85;
+    font-size: 85%;
   }
 }
 

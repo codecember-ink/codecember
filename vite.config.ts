@@ -15,12 +15,13 @@ const config: UserConfig = {
     Voie({
       // load index page sync and bundled with the landing page to improve first loading time.
       // feel free to remove if you don't need it
-      importMode(path: string) {
-        if (['/src/pages/index.vue', '/src/pages/about.vue'].includes(path))
-          return 'sync'
+      importMode: 'sync',
+      // (path: string) {
+      //   if (['/src/pages/index.vue', '/src/pages/about.vue'].includes(path))
+      //     return 'sync'
 
-        return 'async'
-      },
+      //   return 'async'
+      // },
       extensions: ['vue', 'md'],
     }),
     Markdown({

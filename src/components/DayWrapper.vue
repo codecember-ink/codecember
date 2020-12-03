@@ -4,7 +4,7 @@
       task
     </router-link>
     <span>|</span>
-    <router-link class="link" :to="`/${year}/${day}#gallery`" :class="{active: isGallery}">
+    <router-link class="link" :to="`/${year}/${day}/gallery`" :class="{active: isGallery}">
       gallery
     </router-link>
   </div>
@@ -27,8 +27,8 @@ import { getPosts } from '/~/posts'
 
 const route = useRoute()
 
-const isGallery = computed(() => route.hash === '#gallery')
+const { year, day, subRoute } = useDate()
+const isGallery = computed(() => subRoute.value === 'gallery')
 
-const { year, day } = useDate()
 const posts = computed(() => getPosts(year.value, day.value))
 </script>

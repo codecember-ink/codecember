@@ -3,7 +3,7 @@
 }
 
 #nprogress .bar {
-  background: #888;
+  background: #88888850;
 
   position: fixed;
   z-index: 1031;

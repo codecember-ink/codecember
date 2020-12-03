@@ -1,5 +1,5 @@
 <template>
-  <div class="flex gap-6 py-4">
+  <div class="gallery grid gap-x-6 gap-y-8 py-4">
     <template v-if="posts.length">
       <Post v-for="post of posts" :key="post.post_link" :post="post" />
     </template>
@@ -21,3 +21,9 @@ const props = defineProps({
   },
 })
 </script>
+
+<style lang="postcss" scoped>
+.gallery {
+  grid-template-columns: repeat(auto-fill, minmax(min(280px, 100%), 1fr));
+}
+</style>

@@ -1,5 +1,5 @@
 <template>
-  <a :href="post.post_link" target="_blank">
+  <a class="post" :href="post.post_link" target="_blank">
     <!-- {{ post }} -->
     <img :src="post.media_link">
     <p class="opacity-50 mt-1">
@@ -22,9 +22,17 @@ const props = defineProps({
 </script>
 
 <style lang="postcss" scoped>
+.post {
+  @apply m-auto;
+}
 img {
   object-fit: cover;
-  width: 300px;
-  height: 300px;
+  width: 280px;
+  height: 280px;
+  border: 1px solid transparent;
+}
+
+.post:hover img {
+  border: 1px solid #eee;
 }
 </style>

@@ -1,5 +1,18 @@
 import { execSync } from 'child_process'
+import path from 'path'
 // @ts-ignore
-import { path } from 'chromium'
+import chromium from 'chromium'
+import fs from 'fs-extra'
+import fg from 'fast-glob'
 
-execSync(`npx cross-env CHROME_PATH="${path}" presite dist`, { stdio: 'inherit' })
+async function run() {
+  execSync(`npx cross-env CHROME_PATH="${chromium.path}" presite dist`, { stdio: 'inherit' })
+
+  // /2020/1/index.html -> /2020/1.html
+  const cwd = path.join('.presite/2020')
+  const files = await fg('*/index.html', { cwd })
+  for (const file of files)
+    await fs.move(path.join(cwd, file), path.join(cwd, `${file.split('/')[0]}.html`))
+}
+
+run()

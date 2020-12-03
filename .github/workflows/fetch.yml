@@ -1,0 +1,25 @@
+name: Fetch
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  fetch:
+    name: Fetch
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      
+      - run: yarn install
+      - run: yarn run fetch
+        env:
+          TWITTER_TOKEN: ${{ secrets.TWITTER_TOKEN }}
+
+      - uses: EndBug/add-and-commit@v4
+        with:
+          message: "fetch"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

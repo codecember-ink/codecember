@@ -5,7 +5,7 @@
 </template>
 
 <script setup lang="ts">
-import { computed, onMounted, ref, watch } from 'vue'
+import { computed, onMounted, ref, watchEffect } from 'vue'
 import { isDark } from '/~/logics'
 
 const el = ref<HTMLCanvasElement | null>(null)
@@ -23,15 +23,10 @@ onMounted(() => {
   context.scale(dpr, dpr)
   context.lineWidth = 2
 
-  watch(
-    isDark,
-    (dark) => {
-      context.strokeStyle = dark ? 'white' : 'black'
-      draw()
-    },
-  )
-
-  draw()
+  watchEffect(() => {
+    context.strokeStyle = isDark.value ? 'white' : 'black'
+    draw()
+  })
 
   canvas.onclick = draw
 

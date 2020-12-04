@@ -1,5 +1,5 @@
 <template>
-  <div id="sketch">
+  <div id="sketch" class="select-none">
     <canvas ref="el" />
   </div>
 </template>

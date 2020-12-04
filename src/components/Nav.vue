@@ -12,7 +12,7 @@
         :key="i"
         :class="i == year ? 'text-theme opacity-100 underline' : 'text-gray-400'"
         class="mr-3 opacity-75 hover:opacity-100 cursor-pointer"
-        :to="`/${i}/${day}`"
+        :to="`/${i}/${day}${subRoute ? `/${subRoute}` : ''}`"
       >
         {{ i }}
       </router-link>
@@ -22,7 +22,7 @@
       <router-link
         v-for="i in 31"
         :key="i"
-        :to="isDayAvailiable(i) ? `/${year}/${i}` : ''"
+        :to="isDayAvailiable(i) ? `/${year}/${i}${subRoute ? `/${subRoute}` : ''}` : ''"
         class="day-link "
         :class="{ 'active': i == day, 'unavaliable': !isDayAvailiable(i) }"
       >
@@ -37,7 +37,7 @@
 import { ref } from 'vue'
 import { this_year, today, years_reverse, event_active, useDate } from '/~/logics/date'
 
-const { year, day } = useDate()
+const { year, day, subRoute } = useDate()
 
 const isDayAvailiable = (d: number) => {
   if (year.value === this_year && event_active)

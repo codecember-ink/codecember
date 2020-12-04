@@ -1,74 +1,68 @@
 {
-  "2020/12/2": [
-    {
-      "author_handle": "antfu7",
-      "author": "Anthony Fu",
-      "post_link": "https://twitter.com/antfu7/status/1334416602683514880",
-      "media_link": "https://100.antfu.me/shots/027.png"
-    },
-    {
-      "author_handle": "onsclom",
-      "author": "Austin Merrick",
-      "post_link": "https://twitter.com/onsclom/status/1334297258481786880",
-      "media_link": "https://pbs.twimg.com/tweet_video_thumb/EoRgMOhVQAMNqsG.jpg"
-    },
-    {
-      "author_handle": "marie_usako",
-      "author": "🍳",
-      "post_link": "https://twitter.com/marie_usako/status/1334082945385041920",
-      "media_link": "https://pbs.twimg.com/ext_tw_video_thumb/1334082913709670400/pu/img/8KSbP7Yzs5kEyjpd.jpg"
-    }
-  ],
-  "2020/12/1": [
-    {
-      "author_handle": "onsclom",
-      "author": "Austin Merrick",
-      "post_link": "https://twitter.com/onsclom/status/1334024659579244544",
-      "media_link": "https://pbs.twimg.com/tweet_video_thumb/EoNn4KMVcAY9swL.jpg"
-    },
-    {
-      "author_handle": "antfu7",
-      "author": "Anthony Fu",
-      "post_link": "https://twitter.com/antfu7/status/1334127120990097408",
-      "media_link": "https://100.antfu.me/shots/026.png"
-    },
-    {
-      "author_handle": "marie_usako",
-      "author": "🍳",
-      "post_link": "https://twitter.com/marie_usako/status/1333748568335683584",
-      "media_link": "https://pbs.twimg.com/ext_tw_video_thumb/1333747752153481217/pu/img/DyLY8k9mSkT9b9Km.jpg"
-    },
-    {
-      "author_handle": "HenryJo20974294",
-      "author": "Joseph Henry",
-      "post_link": "https://twitter.com/HenryJo20974294/status/1334867897081061383",
-      "media_link": "https://pbs.twimg.com/tweet_video_thumb/EoZmed3XcAA6Tc4.jpg"
-    }
-  ],
   "2020/12/3": [
     {
-      "author_handle": "marie_usako",
-      "author": "🍳",
-      "post_link": "https://twitter.com/marie_usako/status/1334440843466297345",
-      "media_link": "https://pbs.twimg.com/ext_tw_video_thumb/1334440812034211847/pu/img/vqkYaUWmo84owCCj.jpg"
+      "author_handle": "iiiiiiines_____",
+      "author": "iiiiiiines",
+      "post_link": "https://twitter.com/iiiiiiines_____/status/1334892007651561472",
+      "media_link": "https://pbs.twimg.com/tweet_video_thumb/EoZ8OfEVgAA-OmE.jpg",
+      "created_time": 1607098030000,
+      "video_link": "https://video.twimg.com/tweet_video/EoZ8OfEVgAA-OmE.mp4"
     },
     {
       "author_handle": "antfu7",
       "author": "Anthony Fu",
       "post_link": "https://twitter.com/antfu7/status/1334748267737804803",
-      "media_link": "https://pbs.twimg.com/tweet_video_thumb/EoX6Wn5UwAA2bOC.jpg"
+      "media_link": "https://pbs.twimg.com/tweet_video_thumb/EoX6Wn5UwAA2bOC.jpg",
+      "created_time": 1607063760000,
+      "video_link": "https://video.twimg.com/tweet_video/EoX6Wn5UwAA2bOC.mp4"
     },
     {
       "author_handle": "onsclom",
       "author": "Austin Merrick",
       "post_link": "https://twitter.com/onsclom/status/1334720781872336897",
-      "media_link": "https://pbs.twimg.com/media/EoXhaGEUUAI-txe.jpg"
+      "media_link": "https://pbs.twimg.com/media/EoXhaGEUUAI-txe.jpg",
+      "created_time": 1607057206000
     },
     {
-      "author_handle": "iiiiiiines_____",
-      "author": "iiiiiiines",
-      "post_link": "https://twitter.com/iiiiiiines_____/status/1334892007651561472",
-      "media_link": "https://pbs.twimg.com/tweet_video_thumb/EoZ8OfEVgAA-OmE.jpg"
+      "author_handle": "marie_usako",
+      "author": "🍳",
+      "post_link": "https://twitter.com/marie_usako/status/1334440843466297345",
+      "media_link": "https://pbs.twimg.com/ext_tw_video_thumb/1334440812034211847/pu/img/vqkYaUWmo84owCCj.jpg",
+      "created_time": 1606990464000,
+      "video_link": "https://video.twimg.com/ext_tw_video/1334440812034211847/pu/vid/720x720/4-fno5QTHmuoJXft.mp4?tag=10"
+    }
+  ],
+  "2020/12/1": [
+    {
+      "author_handle": "HenryJo20974294",
+      "author": "Joseph Henry",
+      "post_link": "https://twitter.com/HenryJo20974294/status/1334867897081061383",
+      "media_link": "https://pbs.twimg.com/tweet_video_thumb/EoZmed3XcAA6Tc4.jpg",
+      "created_time": 1607092281000,
+      "video_link": "https://video.twimg.com/tweet_video/EoZmed3XcAA6Tc4.mp4"
+    },
+    {
+      "author_handle": "antfu7",
+      "author": "Anthony Fu",
+      "post_link": "https://twitter.com/antfu7/status/1334127120990097408",
+      "media_link": "https://100.antfu.me/shots/026.png",
+      "created_time": 1606915667000
+    },
+    {
+      "author_handle": "onsclom",
+      "author": "Austin Merrick",
+      "post_link": "https://twitter.com/onsclom/status/1334024659579244544",
+      "media_link": "https://pbs.twimg.com/tweet_video_thumb/EoNn4KMVcAY9swL.jpg",
+      "created_time": 1606891238000,
+      "video_link": "https://video.twimg.com/tweet_video/EoNn4KMVcAY9swL.mp4"
+    },
+    {
+      "author_handle": "marie_usako",
+      "author": "🍳",
+      "post_link": "https://twitter.com/marie_usako/status/1333748568335683584",
+      "media_link": "https://pbs.twimg.com/ext_tw_video_thumb/1333747752153481217/pu/img/DyLY8k9mSkT9b9Km.jpg",
+      "created_time": 1606825413000,
+      "video_link": "https://video.twimg.com/ext_tw_video/1333747752153481217/pu/pl/Jf57077cXseoIblg.m3u8?tag=10"
     }
   ],
   "2020/12/4": [
@@ -76,7 +70,41 @@
       "author_handle": "marie_usako",
       "author": "🍳",
       "post_link": "https://twitter.com/marie_usako/status/1334794755255881734",
-      "media_link": "https://www.openprocessing.org/sketch/1033417/thumbnail"
+      "media_link": "https://www.openprocessing.org/sketch/1033417/thumbnail",
+      "created_time": 1607074843000
+    }
+  ],
+  "2020/12/2": [
+    {
+      "author_handle": "antfu7",
+      "author": "Anthony Fu",
+      "post_link": "https://twitter.com/antfu7/status/1334416602683514880",
+      "media_link": "https://100.antfu.me/shots/027.png",
+      "created_time": 1606984684000
+    },
+    {
+      "author_handle": "onsclom",
+      "author": "Austin Merrick",
+      "post_link": "https://twitter.com/onsclom/status/1334297258481786880",
+      "media_link": "https://pbs.twimg.com/tweet_video_thumb/EoRgMOhVQAMNqsG.jpg",
+      "created_time": 1606956231000,
+      "video_link": "https://video.twimg.com/tweet_video/EoRgMOhVQAMNqsG.mp4"
+    },
+    {
+      "author_handle": "marie_usako",
+      "author": "🍳",
+      "post_link": "https://twitter.com/marie_usako/status/1334082945385041920",
+      "media_link": "https://pbs.twimg.com/ext_tw_video_thumb/1334082913709670400/pu/img/8KSbP7Yzs5kEyjpd.jpg",
+      "created_time": 1606905134000,
+      "video_link": "https://video.twimg.com/ext_tw_video/1334082913709670400/pu/vid/360x360/s17iBPo1Absk_HFq.mp4?tag=10"
+    },
+    {
+      "created_time": 1607099501000,
+      "author_handle": "HenryJo20974294",
+      "author": "Joseph Henry",
+      "post_link": "https://twitter.com/HenryJo20974294/status/1334898177548357635",
+      "media_link": "https://pbs.twimg.com/tweet_video_thumb/EoaCxLwXcAEWDQh.jpg",
+      "video_link": "https://video.twimg.com/tweet_video/EoaCxLwXcAEWDQh.mp4"
     }
   ]
 }

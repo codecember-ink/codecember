@@ -1,20 +1,20 @@
 <template>
   <a class="post" :href="post.post_link" target="_blank">
-    <div class="media">
-      <!-- {{ post }} -->
+    <figure>
       <video
         v-if="post.video_link"
         :poster="post.media_link"
         loop
         autoplay
+        muted
       >
         <source :src="post.video_link">
       </video>
       <img v-else :src="post.media_link">
-    </div>
-    <p class="opacity-50 mt-1">
-      {{ post.author }}
-    </p>
+      <figcaption class="opacity-50 mt-1">
+        {{ post.author }}
+      </figcaption>
+    </figure>
   </a>
 </template>
 
@@ -37,20 +37,14 @@ const props = defineProps({
 
 }
 
-.media {
-  @apply relative overflow-hidden;
+video, img {
+  object-fit: cover;
   border: 1px solid transparent;
   width: 280px;
   height: 280px;
-
-  video, img {
-    object-fit: cover;
-    height: 100%;
-    width: 100%;
-  }
 }
 
-.post:hover .media {
+.post:hover img, .post:hover video {
   border: 1px solid #eee;
 }
 </style>

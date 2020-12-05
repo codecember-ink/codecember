@@ -1,11 +1,17 @@
 <template>
-  <div class="gallery grid gap-x-6 gap-y-8 py-4">
-    <template v-if="posts.length">
+  <div>
+    <div v-if="posts.length" class="gallery grid gap-x-6 gap-y-8 py-4">
       <Post v-for="post of posts" :key="post.post_link" :post="post" />
-    </template>
+    </div>
     <p v-else>
-      <em class="opacity-75">There is no post for this day yet.<em /></em>
+      <em class="opacity-75">There is no post for this day yet.</em>
     </p>
+
+    <hr class="mt-12 mb-4">
+    <div class="opacity-75">
+      To submit your works, post it on Twitter with the hashtag <a href="https://twitter.com/hashtag/codecember" class="link">#codecember</a> and <a :href="`https://twitter.com/hashtag/day${day}`" class="link">#day{{ day }}</a>.<br>
+      <b>Remember to include a link to the source code</b>, so others can learn from your creation.
+    </div>
   </div>
 </template>
 
@@ -18,6 +24,9 @@ const props = defineProps({
   posts: {
     type: Array as PropType<UserPost[]>,
     default: () => [],
+  },
+  day: {
+    type: String,
   },
 })
 </script>

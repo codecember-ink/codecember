@@ -9,10 +9,10 @@
     </router-link>
   </div>
   <template v-if="isGallery && day">
-    <h1 class="mt-6 font-bold">
+    <h1 class="mt-6 mb-4 font-bold">
       Day {{ day }}
     </h1>
-    <gallery :posts="posts" />
+    <gallery :posts="posts" :day="day" />
   </template>
   <template v-else>
     <slot />

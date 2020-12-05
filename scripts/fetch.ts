@@ -103,7 +103,7 @@ async function fetch() {
     tweets = [...tweets, ...res.statuses]
   }
 
-  const processed = tweets.map(processData).filter(i => !i.is_retweet)
+  const processed = tweets.map(processData).filter(i => !i.is_retweet && i.user_handle !== 'codecember_ink')
 
   // fs.writeFileSync('data/processed.json', JSON.stringify(processed, null, 2))
 

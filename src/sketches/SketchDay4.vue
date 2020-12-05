@@ -36,7 +36,7 @@ onMounted(() => {
 
   canvas.onclick = () => {
     x = y = t = 0
-    draw
+    draw()
   }
 
   watchEffect(() => {
@@ -48,10 +48,10 @@ onMounted(() => {
   function draw() {
     context.clearRect(0, 0, size, size)
     while (t < 300) {
-      for (i = 1e3; i--; ) {
+      for (i = 1e3; i--;) {
         context.fillRect((x * size) / 4 + size / 2, (y * size) / 4 + size / 2, fill, fill)
-        let xn = Math.sin(a * y) - Math.cos(b * x)
-        let yn = Math.sin(c * x) - Math.cos(d * y)
+        const xn = Math.sin(a * y) - Math.cos(b * x)
+        const yn = Math.sin(c * x) - Math.cos(d * y)
         x = xn
         y = yn
       }

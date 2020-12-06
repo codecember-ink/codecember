@@ -96,6 +96,13 @@
       "post_link": "https://twitter.com/HenryJo20974294/status/1335222989672079360",
       "media_link": "https://pbs.twimg.com/tweet_video_thumb/EoeqDz0XYAIQHJ4.jpg",
       "video_link": "https://video.twimg.com/tweet_video/EoeqDz0XYAIQHJ4.mp4"
+    },
+    {
+      "created_time": 1607244900000,
+      "author_handle": "antfu7",
+      "author": "Anthony Fu",
+      "post_link": "https://twitter.com/antfu7/status/1335508025818247169",
+      "media_link": "https://100.antfu.me/shots/029.png"
     }
   ],
   "2020/12/2": [
@@ -147,6 +154,24 @@
       "post_link": "https://twitter.com/HenryJo20974294/status/1335401129048469504",
       "media_link": "https://pbs.twimg.com/tweet_video_thumb/EohMNYIWEAAt_Th.jpg",
       "video_link": "https://video.twimg.com/tweet_video/EohMNYIWEAAt_Th.mp4"
+    },
+    {
+      "created_time": 1607245044000,
+      "author_handle": "antfu7",
+      "author": "Anthony Fu",
+      "post_link": "https://twitter.com/antfu7/status/1335508628497780736",
+      "media_link": "https://pbs.twimg.com/tweet_video_thumb/Eoit-bzU0AEMWML.jpg",
+      "video_link": "https://video.twimg.com/tweet_video/Eoit-bzU0AEMWML.mp4"
+    }
+  ],
+  "2020/12/6": [
+    {
+      "created_time": 1607244663000,
+      "author_handle": "marie_usako",
+      "author": "🍳",
+      "post_link": "https://twitter.com/marie_usako/status/1335507033634664450",
+      "media_link": "https://pbs.twimg.com/ext_tw_video_thumb/1335506791757541377/pu/img/KR4oVEJxm7M2_CvS.jpg",
+      "video_link": "https://video.twimg.com/ext_tw_video/1335506791757541377/pu/pl/NvDNLn5DNZpOb_V0.m3u8?tag=10"
     }
   ]
 }

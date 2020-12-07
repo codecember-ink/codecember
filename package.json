@@ -7,16 +7,17 @@
   },
   "dependencies": {
     "@iconify/iconify": "^2.0.0-rc.2",
-    "@vueuse/core": "^4.0.0-rc.5",
-    "dayjs": "^1.9.6",
+    "@vueuse/core": "^4.0.0-rc.7",
+    "dayjs": "^1.9.7",
     "nprogress": "^0.2.0",
     "p5i": "^0.3.1",
     "vue": "^3.0.4",
-    "vue-router": "^4.0.0-rc.6"
+    "vue-router": "^4.0.0"
   },
   "devDependencies": {
     "@antfu/eslint-config-vue": "^0.4.3",
-    "@iconify/json": "^1.1.267",
+    "@antfu/shiki": "^0.3.2",
+    "@iconify/json": "^1.1.269",
     "@purge-icons/generated": "^0.4.1",
     "@types/cheerio": "^0.22.22",
     "@types/fs-extra": "^9.0.4",
@@ -29,7 +30,7 @@
     "cheerio": "^1.0.0-rc.3",
     "chromium": "^3.0.2",
     "cross-env": "^7.0.3",
-    "eslint": "^7.14.0",
+    "eslint": "^7.15.0",
     "esno": "^0.3.0",
     "fast-glob": "^3.2.4",
     "fs-extra": "^9.0.1",

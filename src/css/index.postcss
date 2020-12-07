@@ -103,3 +103,17 @@ html.dark {
     border: 1px solid #eee;
   }
 }
+
+html.dark .shiki-light {
+  display: none;
+}
+
+html:not(.dark) .shiki-dark {
+  display: none;
+}
+
+pre.shiki {
+  padding: 10px 20px;
+  margin: 0 -20px;
+  border-radius: 4px;
+}

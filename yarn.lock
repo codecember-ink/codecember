@@ -32,12 +32,12 @@
     "@antfu/eslint-config-ts" "^0.4.3"
     eslint-plugin-vue "7.1.0"
 
-"@antfu/shiki@^0.3.2":
-  version "0.3.2"
-  resolved "https://registry.yarnpkg.com/@antfu/shiki/-/shiki-0.3.2.tgz#392e0955ff9154a120ede5e6e4d0865839f1c824"
-  integrity sha512-LKIYVSjB5qSbmXD8bg8N6CjNwxKrhQlsrj+ZPzilpAy3/dxCuawlTVoxG5UesoeeAHSi90rXbgYezFIegneJ8Q==
+"@antfu/shiki@^0.3.3":
+  version "0.3.4"
+  resolved "https://registry.yarnpkg.com/@antfu/shiki/-/shiki-0.3.4.tgz#b5fcd51a2ca2c257b55c3c613c489a9ed7aa201f"
+  integrity sha512-+X7w9qkReqtNwn+UWnR0DzCwtz/WedqH+kuDrV6viP9R1OrIVCPQFvnHAPpSqhnDFU0yuLJwMXH1LGLXOiwzhw==
   dependencies:
-    onigasm "^2.2.1"
+    onigasm "^2.2.5"
     vscode-textmate "^5.2.0"
 
 "@arr/every@^1.0.0":
@@ -357,11 +357,6 @@
     "@types/express" "*"
     "@types/keygrip" "*"
     "@types/node" "*"
-
-"@types/deasync@^0.1.1":
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/@types/deasync/-/deasync-0.1.1.tgz#69ca6999a2e40e329599da9f093b67e3e6cc0833"
-  integrity sha512-/AsDEUsHjyzMX0UjPgysggxFO8r7//c4aS9aeQwHzgs5POBsqaBFWW9+KYFGUyx/VYT4HrT/+JzAGTEEL2d4OQ==
 
 "@types/estree@*":
   version "0.0.45"
@@ -1246,7 +1241,7 @@ chownr@^1.1.1:
   resolved "https://registry.yarnpkg.com/chownr/-/chownr-1.1.4.tgz#6fc9d7b42d32a583596337666e7d08084da2cc6b"
   integrity sha512-jJ0bqzaylmJtVnNgzTeSOs8DPavpbYgEr/b0YL8/2GO3xJEhInFmhKMUnEJQjZumK7KXGFhUy89PrsJWlakBVg==
 
-chromium@^3.0.2:
+chromium@3.0.2:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/chromium/-/chromium-3.0.2.tgz#c98163deee5f79c49a34db667622490a61b94736"
   integrity sha512-jxkcLjAYc4Oa72UaVnk60k6qGbbsxsqK4Z6GpvW3mhw8GmUX4Udr4vTs3Z91UtxJmbw7mKPvovE7INkqBlVdvg==
@@ -3284,6 +3279,14 @@ make-dir@^3.0.0:
   dependencies:
     semver "^6.0.0"
 
+markdown-it-shiki@^0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/markdown-it-shiki/-/markdown-it-shiki-0.0.2.tgz#bdc07eac1cb170ffccb7a4af39f688a63fc94e50"
+  integrity sha512-YyFxoNpDCijtIfJF/IjlZxUvWxGZWakR+VQ28lOyNUc1pObk2bC9XUBp++9g1n6KFzJfm7bZT2Fplc89JMoafw==
+  dependencies:
+    "@antfu/shiki" "^0.3.3"
+    deasync "^0.1.21"
+
 markdown-it@^12.0.2:
   version "12.0.2"
   resolved "https://registry.yarnpkg.com/markdown-it/-/markdown-it-12.0.2.tgz#4401beae8df8aa2221fc6565a7188e60a06ef0ed"
@@ -3587,7 +3590,7 @@ onetime@^5.1.0:
   dependencies:
     mimic-fn "^2.1.0"
 
-onigasm@^2.2.1:
+onigasm@^2.2.5:
   version "2.2.5"
   resolved "https://registry.yarnpkg.com/onigasm/-/onigasm-2.2.5.tgz#cc4d2a79a0fa0b64caec1f4c7ea367585a676892"
   integrity sha512-F+th54mPc0l1lp1ZcFMyL/jTs2Tlq4SqIHKIXGZOR/VkHkF9A7Fr5rRr5+ZG/lWeRsyrClLYRq7s/yFQ/XhWCA==
@@ -4974,10 +4977,10 @@ vite-plugin-components@^0.5.0:
     fast-glob "^3.2.4"
     minimatch "^3.0.4"
 
-vite-plugin-md@^0.1.3:
-  version "0.1.3"
-  resolved "https://registry.yarnpkg.com/vite-plugin-md/-/vite-plugin-md-0.1.3.tgz#c0ebb7fbb699a5de8c483d330e301600e96f829f"
-  integrity sha512-AEgPEe0mO+tkwbSgPlhTUKLDG9s32rhpajhFnDYd8A7LPkjukTkmzcc3SeQQii/M2HZKYVxLEsBuk3R5yMD0WA==
+vite-plugin-md@^0.1.4:
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/vite-plugin-md/-/vite-plugin-md-0.1.4.tgz#d3581fcb1eff8fa71ad5e4fc3a5f59294b6db889"
+  integrity sha512-u2nMh3tK7rtjb9ZquLZ3BgAuOvZ9Wa9q1zE7E9QS0bmHvWjfT6c98f97w+qKdnGFaxf4PNGli5xjwjW/Us0wJw==
   dependencies:
     markdown-it "^12.0.2"
 

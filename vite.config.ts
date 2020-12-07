@@ -4,19 +4,22 @@ import Voie from 'vite-plugin-voie'
 import PurgeIcons from 'vite-plugin-purge-icons'
 import ViteComponents from 'vite-plugin-components'
 import Markdown from 'vite-plugin-md'
-import { getHighlighter } from '@antfu/shiki'
+import { getHighlighter, Highlighter } from '@antfu/shiki'
+import deasync from 'deasync'
 
 const alias = {
   '/~/': path.resolve(__dirname, 'src'),
 }
 
-let _highlighter: ReturnType<typeof getHighlighter> extends Promise<infer I> ? I : never
+let _highlighter: Highlighter = undefined!
+
 getHighlighter({
   theme: 'nord',
   themes: ['nord', 'min-light'],
 })
-  .then((highlighter) => {
-    _highlighter = highlighter
+  .then((h) => {
+    _highlighter = h
+    console.log('!!resolved')
   })
 
 const config: UserConfig = {
@@ -38,6 +41,10 @@ const config: UserConfig = {
       wrapperComponent: 'day-wrapper',
       markdownItOptions: {
         highlight: (code, lang) => {
+          // eslint-disable-next-line no-unmodified-loop-condition
+          while (!_highlighter)
+            deasync.sleep(100)
+
           const dark = _highlighter.codeToHtml(code, lang || 'text', 'nord')
           const light = _highlighter.codeToHtml(code, lang || 'text', 'min-light')
           return `<div class="shiki-dark">${dark}</div><div class="shiki-light">${light}</div>`

@@ -12,7 +12,7 @@
     "nprogress": "^0.2.0",
     "p5i": "^0.3.1",
     "vue": "^3.0.4",
-    "vue-router": "^4.0.0"
+    "vue-router": "4.0.0-rc.3"
   },
   "devDependencies": {
     "@antfu/eslint-config-vue": "^0.4.3",
@@ -20,6 +20,7 @@
     "@iconify/json": "^1.1.269",
     "@purge-icons/generated": "^0.4.1",
     "@types/cheerio": "^0.22.22",
+    "@types/deasync": "^0.1.1",
     "@types/fs-extra": "^9.0.4",
     "@types/markdown-it": "^10.0.3",
     "@types/nprogress": "^0.2.0",
@@ -30,6 +31,7 @@
     "cheerio": "^1.0.0-rc.3",
     "chromium": "^3.0.2",
     "cross-env": "^7.0.3",
+    "deasync": "^0.1.21",
     "eslint": "^7.15.0",
     "esno": "^0.3.0",
     "fast-glob": "^3.2.4",

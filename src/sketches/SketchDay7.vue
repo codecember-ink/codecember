@@ -68,7 +68,7 @@ function setup({ windowWidth, windowHeight, random, floor }: P5I) {
 }
 
 function periodicFunction(p: number) {
-  return map(sin(TWO_PI * p), -1, 1, 2, 5)
+  return map(sin(TWO_PI * p), -1, 1, 2, 8)
 }
 
 function offset(x: number, y: number, width: number, height: number) {

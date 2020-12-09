@@ -9,7 +9,7 @@
 
     <hr class="mt-12 mb-4">
     <div class="opacity-75">
-      To submit your works, post it on Twitter with the hashtag <a href="https://twitter.com/hashtag/codecember" class="link">#codecember</a> and <a :href="`https://twitter.com/hashtag/day${day}`" class="link">#day{{ day }}</a>.<br>
+      To submit your works, post them on Twitter with the hashtag <a href="https://twitter.com/hashtag/codecember" class="link">#codecember</a> and <a :href="`https://twitter.com/hashtag/day${day}`" class="link">#day{{ day }}</a>.<br>
       <b>Remember to include a link to the source code</b>, so others can learn from your creation.
     </div>
   </div>

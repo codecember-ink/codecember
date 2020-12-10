@@ -1,6 +1,6 @@
 export interface UserPost {
   date?: string
-  created_time?: string | number
+  created_time?: number
   post_link: string
   media_link?: string
   video_link?: string

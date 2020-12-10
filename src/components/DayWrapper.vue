@@ -30,5 +30,8 @@ const route = useRoute()
 const { year, day, subRoute } = useDate()
 const isGallery = computed(() => subRoute.value === 'gallery')
 
-const posts = computed(() => getPosts(year.value, day.value))
+const posts = computed(() =>
+  getPosts(year.value, day.value)
+    .sort((a, b) => (b.created_time || 0) - (a.created_time || 0)),
+)
 </script>

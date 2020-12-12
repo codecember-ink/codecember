@@ -226,5 +226,206 @@
         "lang": "en"
       }
     }
+  },
+  {
+    "date": "2020/12/10",
+    "created_time": 1607751846000,
+    "author_handle": "processing_org",
+    "author": "processing watch",
+    "post_link": "https://twitter.com/processing_org/status/1337634312733290497",
+    "raw": {
+      "id": "1337634312733290497",
+      "href": "https://twitter.com/processing_org/status/1337634312733290497",
+      "created_at": "Sat Dec 12 05:44:06 +0000 2020",
+      "tags": [
+        "day10",
+        "codecember",
+        "processing",
+        "creativecoding",
+        "hexagon",
+        "zebra"
+      ],
+      "urls": [
+        "https://ift.tt/37VpuHU"
+      ],
+      "media": [],
+      "video": [],
+      "user_id": "366262341",
+      "user_name": "processing watch",
+      "user_handle": "processing_org",
+      "data": {
+        "created_at": "Sat Dec 12 05:44:06 +0000 2020",
+        "id": 1337634312733290500,
+        "id_str": "1337634312733290497",
+        "full_text": "CreativeCodeLY: RT @HenryJo20974294: #day10 of #codecember\n\nzebra hexagon inspired by @MAKIO135 \n\n#processing #creativecoding #hexagon #zebra … https://t.co/lneu6vIncy",
+        "truncated": false,
+        "display_text_range": [
+          0,
+          167
+        ],
+        "entities": {
+          "hashtags": [
+            {
+              "text": "day10",
+              "indices": [
+                37,
+                43
+              ]
+            },
+            {
+              "text": "codecember",
+              "indices": [
+                47,
+                58
+              ]
+            },
+            {
+              "text": "processing",
+              "indices": [
+                98,
+                109
+              ]
+            },
+            {
+              "text": "creativecoding",
+              "indices": [
+                110,
+                125
+              ]
+            },
+            {
+              "text": "hexagon",
+              "indices": [
+                126,
+                134
+              ]
+            },
+            {
+              "text": "zebra",
+              "indices": [
+                135,
+                141
+              ]
+            }
+          ],
+          "symbols": [],
+          "user_mentions": [
+            {
+              "screen_name": "HenryJo20974294",
+              "name": "Joseph Henry",
+              "id": 1114932472280748000,
+              "id_str": "1114932472280748032",
+              "indices": [
+                19,
+                35
+              ]
+            },
+            {
+              "screen_name": "MAKIO135",
+              "name": "Lionel Radisson",
+              "id": 17538725,
+              "id_str": "17538725",
+              "indices": [
+                86,
+                95
+              ]
+            }
+          ],
+          "urls": [
+            {
+              "url": "https://t.co/lneu6vIncy",
+              "expanded_url": "https://ift.tt/37VpuHU",
+              "display_url": "ift.tt/37VpuHU",
+              "indices": [
+                144,
+                167
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "iso_language_code": "en",
+          "result_type": "recent"
+        },
+        "source": "<a href=\"https://ifttt.com\" rel=\"nofollow\">IFTTT</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+          "id": 366262341,
+          "id_str": "366262341",
+          "name": "processing watch",
+          "screen_name": "processing_org",
+          "location": "Brussels ",
+          "description": "open source programming language/environment for people who want to create. NON OFFICIAL INFOBOT of @arts_numeriques. OFFICIAL ACCOUNT : @ProcessingOrg",
+          "url": "http://t.co/p6me2bQrYi",
+          "entities": {
+            "url": {
+              "urls": [
+                {
+                  "url": "http://t.co/p6me2bQrYi",
+                  "expanded_url": "http://processing.org",
+                  "display_url": "processing.org",
+                  "indices": [
+                    0,
+                    22
+                  ]
+                }
+              ]
+            },
+            "description": {
+              "urls": []
+            }
+          },
+          "protected": false,
+          "followers_count": 4471,
+          "friends_count": 66,
+          "listed_count": 198,
+          "created_at": "Thu Sep 01 21:29:25 +0000 2011",
+          "favourites_count": 0,
+          "utc_offset": null,
+          "time_zone": null,
+          "geo_enabled": false,
+          "verified": false,
+          "statuses_count": 6683,
+          "lang": null,
+          "contributors_enabled": false,
+          "is_translator": false,
+          "is_translation_enabled": false,
+          "profile_background_color": "FFFFFF",
+          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_tile": false,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/3696002906/1d149aa916b70993727d90ac47863c61_normal.jpeg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/3696002906/1d149aa916b70993727d90ac47863c61_normal.jpeg",
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/366262341/1455033646",
+          "profile_link_color": "0084B4",
+          "profile_sidebar_border_color": "383838",
+          "profile_sidebar_fill_color": "B8B8B8",
+          "profile_text_color": "333333",
+          "profile_use_background_image": true,
+          "has_extended_profile": false,
+          "default_profile": false,
+          "default_profile_image": false,
+          "following": null,
+          "follow_request_sent": null,
+          "notifications": null,
+          "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 2,
+        "favorite_count": 0,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+      }
+    }
   }
 ]

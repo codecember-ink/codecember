@@ -1,5 +1,5 @@
 <template>
-  <div id="sketch" ref="el" />
+  <div id="sketch" ref="el" @click="start" />
 </template>
 
 <script setup lang="ts">
@@ -14,16 +14,13 @@ const {
   mount,
   unmount,
   createCanvas,
-  background,
-  fill,
   stroke,
-  lerp,
-  line,
+  noFill,
   circle,
 } = p5i()
 
 const n = 200
-const radius = 1.5
+const radius = 1
 const minDist = 15
 const maxDist = 40
 
@@ -54,8 +51,9 @@ function setup() {
 }
 
 function draw({ width, height }: P5I) {
-  background(isDark.value ? '#222' : '#fff')
-  isDark.value ? fill('white') : fill('black')
+  // background(isDark.value ? '#222' : '#fff')
+  noFill()
+  isDark.value ? stroke(255, 10) : stroke(0, 10)
 
   for (let i = 0; i < n; ++i) {
     const p = particles[i]
@@ -68,34 +66,15 @@ function draw({ width, height }: P5I) {
     p.vx += 0.2 * (Math.random() - 0.5) - 0.01 * p.vx
     p.vy += 0.2 * (Math.random() - 0.5) - 0.01 * p.vy
 
-    circle(p.x, p.y, radius * 2)
-  }
-
-  for (let i = 0; i < n; ++i) {
-    for (let j = i + 1; j < n; ++j) {
-      const pi = particles[i]
-      const pj = particles[j]
-      const dx = pi.x - pj.x
-      const dy = pi.y - pj.y
-      const d2 = dx * dx + dy * dy
-      if (d2 < maxDistance2) {
-        const alpha
-          = d2 > minDistance2
-            ? (maxDistance2 - d2) / (maxDistance2 - minDistance2)
-            : 1
-        if (isDark.value)
-          stroke(255, lerp(0, 255, alpha))
-
-        else
-          stroke(0, lerp(0, 255, alpha))
-
-        line(pi.x, pi.y, pj.x, pj.y)
-      }
-    }
+    circle(p.x, p.y, radius)
   }
 }
 
-onMounted(() => mount(el.value!, { setup, draw }))
+function start() {
+  mount(el.value!, { setup, draw })
+}
+
+onMounted(() => start())
 onUnmounted(() => unmount())
 </script>
 

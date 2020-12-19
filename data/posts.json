@@ -491,5 +491,23 @@
       "post_link": "https://twitter.com/marie_usako/status/1340002571394580482",
       "media_link": "https://pbs.twimg.com/media/EpilO_jVQAA8qce.jpg"
     }
+  ],
+  "2020/12/19": [
+    {
+      "created_time": 1608389409000,
+      "author_handle": "marie_usako",
+      "author": "🍳",
+      "post_link": "https://twitter.com/marie_usako/status/1340308444440489984",
+      "media_link": "https://pbs.twimg.com/ext_tw_video_thumb/1340308399313940481/pu/img/VONm36x-FRkAJVxK.jpg",
+      "video_link": "https://video.twimg.com/ext_tw_video/1340308399313940481/pu/vid/360x362/9ETJJBa2V9QGXm0Z.mp4?tag=10"
+    },
+    {
+      "created_time": 1608389295000,
+      "author_handle": "marie_usako",
+      "author": "🍳",
+      "post_link": "https://twitter.com/marie_usako/status/1340307965866172417",
+      "media_link": "https://pbs.twimg.com/ext_tw_video_thumb/1340307788732350467/pu/img/oHm-ybjGA8gYoXC-.jpg",
+      "video_link": "https://video.twimg.com/ext_tw_video/1340307788732350467/pu/pl/diYzGSqW6hEaGtWD.m3u8?tag=10"
+    }
   ]
 }

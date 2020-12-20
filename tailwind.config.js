@@ -9,6 +9,7 @@ module.exports = {
       './src/**/*.vue',
       './src/**/*.js',
       './src/**/*.ts',
+      './src/**/*.md',
     ],
   },
   theme: {

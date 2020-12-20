@@ -176,6 +176,13 @@
       "post_link": "https://twitter.com/antfu7/status/1335508628497780736",
       "media_link": "https://pbs.twimg.com/tweet_video_thumb/Eoit-bzU0AEMWML.jpg",
       "video_link": "https://video.twimg.com/tweet_video/Eoit-bzU0AEMWML.mp4"
+    },
+    {
+      "created_time": 1608470900000,
+      "author_handle": "RikRoots",
+      "author": "Rik Roots",
+      "post_link": "https://twitter.com/RikRoots/status/1340650243722006528",
+      "media_link": "https://pbs.twimg.com/media/EpryMDnW4AM9a0h.png"
     }
   ],
   "2020/12/6": [
@@ -515,6 +522,15 @@
       "post_link": "https://twitter.com/marie_usako/status/1340307965866172417",
       "media_link": "https://pbs.twimg.com/ext_tw_video_thumb/1340307788732350467/pu/img/oHm-ybjGA8gYoXC-.jpg",
       "video_link": "https://video.twimg.com/ext_tw_video/1340307788732350467/pu/pl/diYzGSqW6hEaGtWD.m3u8?tag=10"
+    }
+  ],
+  "2020/12/20": [
+    {
+      "created_time": 1608475105000,
+      "author_handle": "marie_usako",
+      "author": "🍳",
+      "post_link": "https://twitter.com/marie_usako/status/1340667877456691201",
+      "media_link": "https://pbs.twimg.com/media/EpsCGHFVEAEnHR_.png"
     }
   ]
 }

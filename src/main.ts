@@ -17,4 +17,6 @@ const router = createRouter({
 
 app.use(router)
 
-app.mount('#app', true)
+router.isReady().then(() => {
+  app.mount('#app', true)
+})

@@ -305,5 +305,229 @@
         "lang": "en"
       }
     }
+  },
+  {
+    "created_time": 1608503152000,
+    "author_handle": "syphaDemigod",
+    "author": "Johannes Mogashoa",
+    "post_link": "https://twitter.com/syphaDemigod/status/1340785515298254850",
+    "media_link": "https://pbs.twimg.com/media/EpttUd6XcAQmyb4.jpg",
+    "raw": {
+      "id": "1340785515298254850",
+      "href": "https://twitter.com/syphaDemigod/status/1340785515298254850",
+      "created_at": "Sun Dec 20 22:25:52 +0000 2020",
+      "tags": [
+        "codingislife",
+        "codingisfun",
+        "codecember"
+      ],
+      "urls": [],
+      "media": [
+        "https://pbs.twimg.com/media/EpttUd6XcAQmyb4.jpg"
+      ],
+      "video": [],
+      "user_id": "1270756054951960577",
+      "user_name": "Johannes Mogashoa",
+      "user_handle": "syphaDemigod",
+      "data": {
+        "created_at": "Sun Dec 20 22:25:52 +0000 2020",
+        "id": 1340785515298254800,
+        "id_str": "1340785515298254850",
+        "full_text": "My aim for these holidays...\nPersonal projects + learning + work projects...\n\nJust me, code, snacks and some good music\n🎧💻🥤\n\n#codingislife #codingisfun #codecember https://t.co/dc4mTWBHis",
+        "truncated": false,
+        "display_text_range": [
+          0,
+          163
+        ],
+        "entities": {
+          "hashtags": [
+            {
+              "text": "codingislife",
+              "indices": [
+                125,
+                138
+              ]
+            },
+            {
+              "text": "codingisfun",
+              "indices": [
+                139,
+                151
+              ]
+            },
+            {
+              "text": "codecember",
+              "indices": [
+                152,
+                163
+              ]
+            }
+          ],
+          "symbols": [],
+          "user_mentions": [],
+          "urls": [],
+          "media": [
+            {
+              "id": 1340785512467099600,
+              "id_str": "1340785512467099652",
+              "indices": [
+                164,
+                187
+              ],
+              "media_url": "http://pbs.twimg.com/media/EpttUd6XcAQmyb4.jpg",
+              "media_url_https": "https://pbs.twimg.com/media/EpttUd6XcAQmyb4.jpg",
+              "url": "https://t.co/dc4mTWBHis",
+              "display_url": "pic.twitter.com/dc4mTWBHis",
+              "expanded_url": "https://twitter.com/syphaDemigod/status/1340785515298254850/photo/1",
+              "type": "photo",
+              "sizes": {
+                "small": {
+                  "w": 680,
+                  "h": 680,
+                  "resize": "fit"
+                },
+                "thumb": {
+                  "w": 150,
+                  "h": 150,
+                  "resize": "crop"
+                },
+                "medium": {
+                  "w": 720,
+                  "h": 720,
+                  "resize": "fit"
+                },
+                "large": {
+                  "w": 720,
+                  "h": 720,
+                  "resize": "fit"
+                }
+              }
+            }
+          ]
+        },
+        "extended_entities": {
+          "media": [
+            {
+              "id": 1340785512467099600,
+              "id_str": "1340785512467099652",
+              "indices": [
+                164,
+                187
+              ],
+              "media_url": "http://pbs.twimg.com/media/EpttUd6XcAQmyb4.jpg",
+              "media_url_https": "https://pbs.twimg.com/media/EpttUd6XcAQmyb4.jpg",
+              "url": "https://t.co/dc4mTWBHis",
+              "display_url": "pic.twitter.com/dc4mTWBHis",
+              "expanded_url": "https://twitter.com/syphaDemigod/status/1340785515298254850/photo/1",
+              "type": "photo",
+              "sizes": {
+                "small": {
+                  "w": 680,
+                  "h": 680,
+                  "resize": "fit"
+                },
+                "thumb": {
+                  "w": 150,
+                  "h": 150,
+                  "resize": "crop"
+                },
+                "medium": {
+                  "w": 720,
+                  "h": 720,
+                  "resize": "fit"
+                },
+                "large": {
+                  "w": 720,
+                  "h": 720,
+                  "resize": "fit"
+                }
+              }
+            }
+          ]
+        },
+        "metadata": {
+          "iso_language_code": "en",
+          "result_type": "recent"
+        },
+        "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+          "id": 1270756054951960600,
+          "id_str": "1270756054951960577",
+          "name": "Johannes Mogashoa",
+          "screen_name": "syphaDemigod",
+          "location": "Johannesburg, South Africa",
+          "description": "@GKSS_NMU Chapter Leader, Front-end developer, aspiring full stack developer, software dev intern, self-made solutionist & co-founder of my dreams",
+          "url": "https://t.co/UgGLkMl4c5",
+          "entities": {
+            "url": {
+              "urls": [
+                {
+                  "url": "https://t.co/UgGLkMl4c5",
+                  "expanded_url": "https://johannesmogashoa.github.io/",
+                  "display_url": "johannesmogashoa.github.io",
+                  "indices": [
+                    0,
+                    23
+                  ]
+                }
+              ]
+            },
+            "description": {
+              "urls": []
+            }
+          },
+          "protected": false,
+          "followers_count": 225,
+          "friends_count": 148,
+          "listed_count": 2,
+          "created_at": "Wed Jun 10 16:34:00 +0000 2020",
+          "favourites_count": 419,
+          "utc_offset": null,
+          "time_zone": null,
+          "geo_enabled": false,
+          "verified": false,
+          "statuses_count": 226,
+          "lang": null,
+          "contributors_enabled": false,
+          "is_translator": false,
+          "is_translation_enabled": false,
+          "profile_background_color": "F5F8FA",
+          "profile_background_image_url": null,
+          "profile_background_image_url_https": null,
+          "profile_background_tile": false,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/1298358072679837698/mztrKahe_normal.jpg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/1298358072679837698/mztrKahe_normal.jpg",
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/1270756054951960577/1600567769",
+          "profile_link_color": "1DA1F2",
+          "profile_sidebar_border_color": "C0DEED",
+          "profile_sidebar_fill_color": "DDEEF6",
+          "profile_text_color": "333333",
+          "profile_use_background_image": true,
+          "has_extended_profile": true,
+          "default_profile": true,
+          "default_profile_image": false,
+          "following": null,
+          "follow_request_sent": null,
+          "notifications": null,
+          "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+      }
+    }
   }
 ]

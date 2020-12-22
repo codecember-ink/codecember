@@ -4,3 +4,4 @@ dist
 *.local
 .presite
 .env
+.vite-ssg-dist

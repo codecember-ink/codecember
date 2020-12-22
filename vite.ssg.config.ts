@@ -27,7 +27,8 @@ const config: UserConfig = {
       alias,
       dirs: [
         'src/components',
-        'src/sketches',
+        // SSG
+        // 'src/sketches',
       ],
       extensions: ['vue', 'md'],
       customLoaderMatcher: ({ path }) => path.endsWith('.md'),

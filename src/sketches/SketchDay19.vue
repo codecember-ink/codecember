@@ -24,7 +24,7 @@ const {
   scale,
   strokeWeight,
   line,
-  pop
+  pop,
 } = p5i()
 
 const initialLines = 100
@@ -47,9 +47,8 @@ function setup() {
 
   background(isDark.value ? '#222' : '#fff')
 
-  for (let i = 0; i < initialLines && i < maxLines; i++) {
+  for (let i = 0; i < initialLines && i < maxLines; i++)
     lines.push(createLine())
-  }
 }
 
 function createLine(origin?: number[], direction?: number[]) {
@@ -67,7 +66,7 @@ function createLine(origin?: number[], direction?: number[]) {
     direction: direction.slice(),
     speed: random(0.1, 0.25),
     hits: [],
-    moving: true
+    moving: true,
   }
   return line
 }
@@ -95,9 +94,8 @@ function stepLine(line: Line, deltaTime: number) {
     if (other === line) continue
 
     // if the lines have collided already, skip
-    if (line.hits.includes(other) || other.hits.includes(line)) {
+    if (line.hits.includes(other) || other.hits.includes(line))
       continue
-    }
 
     const hit = intersectLineSegments(
       // this line A->B
@@ -105,7 +103,7 @@ function stepLine(line: Line, deltaTime: number) {
       [x1, y1],
       // other line A->B
       [other.origin[0], other.origin[1]],
-      [other.position[0], other.position[1]]
+      [other.position[0], other.position[1]],
     )
 
     // We hit another line, make sure we didn't go further than it
@@ -184,12 +182,12 @@ function intersectLineSegments(
   p1: number[],
   p2: number[],
   p3: number[],
-  p4: number[]
+  p4: number[],
 ) {
   const t = intersectLineSegmentsFract(p1, p2, p3, p4)
-  if (t >= 0 && t <= 1) {
+  if (t >= 0 && t <= 1)
     return [p1[0] + t * (p2[0] - p1[0]), p1[1] + t * (p2[1] - p1[1])]
-  }
+
   return false
 }
 
@@ -197,7 +195,7 @@ function intersectLineSegmentsFract(
   p1: number[],
   p2: number[],
   p3: number[],
-  p4: number[]
+  p4: number[],
 ) {
   // Reference:
   // https://github.com/evil-mad/EggBot/blob/master/inkscape_driver/eggbot_hatch.py
@@ -226,7 +224,7 @@ function draw({ width, height }: P5I) {
   // Step all the lines first
   // Use a fixed delta-time
   const dt = 1 / 24
-  lines.forEach((line) => stepLine(line, dt))
+  lines.forEach(line => stepLine(line, dt))
 
   // Now draw all the lines
   const dim = Math.min(width, height)

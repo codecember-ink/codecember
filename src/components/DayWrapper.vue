@@ -15,7 +15,7 @@
     <gallery :posts="posts" :day="day" />
   </template>
   <template v-else>
-    <slot />
+    <slot :dark="isDark" />
   </template>
 </template>
 
@@ -23,6 +23,7 @@
 import { computed, ref, toRef } from 'vue'
 import { useRoute } from 'vue-router'
 import { useDate } from '/~/logics/date'
+import { isDark } from '/~/logics'
 import { getPosts } from '/~/posts'
 
 const route = useRoute()

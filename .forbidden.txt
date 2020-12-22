@@ -1,0 +1,6 @@
+postcss.plugin
+postcss-8-plugin-migration
+t>>>=0
+Comparison using the
+[vite] warnings while transforming
+| 

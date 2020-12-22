@@ -17,5 +17,13 @@
   <div id="app"></div>
   <script src="https://unpkg.com/@octref/delaunay-fast@1.0.2/delaunay.js"></script>
   <script type="module" src="/src/main.ts"></script>
+  <script>
+    (function() {
+      const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+      const setting = localStorage.getItem('color-schema') || 'auto'
+      if (setting === 'dark' || (prefersDark && setting !== 'light'))
+        document.documentElement.classList.toggle('dark', true)
+    })()
+  </script>
 </body>
 </html>

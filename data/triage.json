@@ -668,5 +668,248 @@
         "lang": "en"
       }
     }
+  },
+  {
+    "created_time": 1608606001000,
+    "author_handle": "WebDataRocks",
+    "author": "WebDataRocks",
+    "post_link": "https://twitter.com/WebDataRocks/status/1341216896582967297",
+    "media_link": "https://pbs.twimg.com/media/Epya_6kXIAU2Ctc.jpg",
+    "raw": {
+      "id": "1341216896582967297",
+      "href": "https://twitter.com/WebDataRocks/status/1341216896582967297",
+      "created_at": "Tue Dec 22 03:00:01 +0000 2020",
+      "tags": [
+        "codecember",
+        "100daysofcode",
+        "javascriptmas",
+        "programming"
+      ],
+      "urls": [],
+      "media": [
+        "https://pbs.twimg.com/media/Epya_6kXIAU2Ctc.jpg"
+      ],
+      "video": [],
+      "user_id": "910456963808612352",
+      "user_name": "WebDataRocks",
+      "user_handle": "WebDataRocks",
+      "data": {
+        "created_at": "Tue Dec 22 03:00:01 +0000 2020",
+        "id": 1341216896582967300,
+        "id_str": "1341216896582967297",
+        "full_text": "Hey! Pssss... Did you know that Santa also uses @WebDataRocks? Yeah, how else does he manage to save Christmas each year!\n#codecember  #100DaysOfCode  #JavaScriptmas  #programming https://t.co/n31NNzdGjm",
+        "truncated": false,
+        "display_text_range": [
+          0,
+          179
+        ],
+        "entities": {
+          "hashtags": [
+            {
+              "text": "codecember",
+              "indices": [
+                122,
+                133
+              ]
+            },
+            {
+              "text": "100DaysOfCode",
+              "indices": [
+                135,
+                149
+              ]
+            },
+            {
+              "text": "JavaScriptmas",
+              "indices": [
+                151,
+                165
+              ]
+            },
+            {
+              "text": "programming",
+              "indices": [
+                167,
+                179
+              ]
+            }
+          ],
+          "symbols": [],
+          "user_mentions": [
+            {
+              "screen_name": "WebDataRocks",
+              "name": "WebDataRocks",
+              "id": 910456963808612400,
+              "id_str": "910456963808612352",
+              "indices": [
+                48,
+                61
+              ]
+            }
+          ],
+          "urls": [],
+          "media": [
+            {
+              "id": 1341117211893768200,
+              "id_str": "1341117211893768197",
+              "indices": [
+                180,
+                203
+              ],
+              "media_url": "http://pbs.twimg.com/media/Epya_6kXIAU2Ctc.jpg",
+              "media_url_https": "https://pbs.twimg.com/media/Epya_6kXIAU2Ctc.jpg",
+              "url": "https://t.co/n31NNzdGjm",
+              "display_url": "pic.twitter.com/n31NNzdGjm",
+              "expanded_url": "https://twitter.com/WebDataRocks/status/1341216896582967297/photo/1",
+              "type": "photo",
+              "sizes": {
+                "thumb": {
+                  "w": 150,
+                  "h": 150,
+                  "resize": "crop"
+                },
+                "medium": {
+                  "w": 1200,
+                  "h": 675,
+                  "resize": "fit"
+                },
+                "large": {
+                  "w": 1600,
+                  "h": 900,
+                  "resize": "fit"
+                },
+                "small": {
+                  "w": 680,
+                  "h": 383,
+                  "resize": "fit"
+                }
+              }
+            }
+          ]
+        },
+        "extended_entities": {
+          "media": [
+            {
+              "id": 1341117211893768200,
+              "id_str": "1341117211893768197",
+              "indices": [
+                180,
+                203
+              ],
+              "media_url": "http://pbs.twimg.com/media/Epya_6kXIAU2Ctc.jpg",
+              "media_url_https": "https://pbs.twimg.com/media/Epya_6kXIAU2Ctc.jpg",
+              "url": "https://t.co/n31NNzdGjm",
+              "display_url": "pic.twitter.com/n31NNzdGjm",
+              "expanded_url": "https://twitter.com/WebDataRocks/status/1341216896582967297/photo/1",
+              "type": "photo",
+              "sizes": {
+                "thumb": {
+                  "w": 150,
+                  "h": 150,
+                  "resize": "crop"
+                },
+                "medium": {
+                  "w": 1200,
+                  "h": 675,
+                  "resize": "fit"
+                },
+                "large": {
+                  "w": 1600,
+                  "h": 900,
+                  "resize": "fit"
+                },
+                "small": {
+                  "w": 680,
+                  "h": 383,
+                  "resize": "fit"
+                }
+              }
+            }
+          ]
+        },
+        "metadata": {
+          "iso_language_code": "en",
+          "result_type": "recent"
+        },
+        "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+          "id": 910456963808612400,
+          "id_str": "910456963808612352",
+          "name": "WebDataRocks",
+          "screen_name": "WebDataRocks",
+          "location": "United States",
+          "description": "Free Web Reporting Tool for data analysis and visualization with simple integration and analysis of complex data.",
+          "url": "https://t.co/eUfx0x8oVQ",
+          "entities": {
+            "url": {
+              "urls": [
+                {
+                  "url": "https://t.co/eUfx0x8oVQ",
+                  "expanded_url": "http://www.webdatarocks.com",
+                  "display_url": "webdatarocks.com",
+                  "indices": [
+                    0,
+                    23
+                  ]
+                }
+              ]
+            },
+            "description": {
+              "urls": []
+            }
+          },
+          "protected": false,
+          "followers_count": 569,
+          "friends_count": 2073,
+          "listed_count": 5,
+          "created_at": "Wed Sep 20 10:53:50 +0000 2017",
+          "favourites_count": 1583,
+          "utc_offset": null,
+          "time_zone": null,
+          "geo_enabled": false,
+          "verified": false,
+          "statuses_count": 671,
+          "lang": null,
+          "contributors_enabled": false,
+          "is_translator": false,
+          "is_translation_enabled": false,
+          "profile_background_color": "000000",
+          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_tile": false,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/1267845637380464644/guzR70nW_normal.png",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/1267845637380464644/guzR70nW_normal.png",
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/910456963808612352/1577377122",
+          "profile_link_color": "00A6C9",
+          "profile_sidebar_border_color": "000000",
+          "profile_sidebar_fill_color": "000000",
+          "profile_text_color": "000000",
+          "profile_use_background_image": false,
+          "has_extended_profile": false,
+          "default_profile": false,
+          "default_profile_image": false,
+          "following": null,
+          "follow_request_sent": null,
+          "notifications": null,
+          "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 4,
+        "favorite_count": 2,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+      }
+    }
   }
 ]

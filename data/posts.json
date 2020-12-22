@@ -526,6 +526,13 @@
       "post_link": "https://twitter.com/TurtleSpaces/status/1339655665011228672",
       "media_link": "https://pbs.twimg.com/tweet_video_thumb/EpdpQpUUwAALFz0.jpg",
       "video_link": "https://video.twimg.com/tweet_video/EpdpQpUUwAALFz0.mp4"
+    },
+    {
+      "created_time": 1608629916000,
+      "author_handle": "RikRoots",
+      "author": "Rik Roots",
+      "post_link": "https://twitter.com/RikRoots/status/1341317205791825921",
+      "media_link": "https://pbs.twimg.com/media/Ep1QyuNW8AEczCi.jpg"
     }
   ],
   "2020/12/16": [
@@ -551,6 +558,13 @@
       "post_link": "https://twitter.com/HenryJo20974294/status/1339695393211334656",
       "media_link": "https://pbs.twimg.com/tweet_video_thumb/EpeNtn0W8AEMqKN.jpg",
       "video_link": "https://video.twimg.com/tweet_video/EpeNtn0W8AEMqKN.mp4"
+    },
+    {
+      "created_time": 1608632233000,
+      "author_handle": "RikRoots",
+      "author": "Rik Roots",
+      "post_link": "https://twitter.com/RikRoots/status/1341326921112711168",
+      "media_link": "https://pbs.twimg.com/media/Ep1ZnGtW8AAqXjD.png"
     }
   ],
   "2020/12/17": [
@@ -621,6 +635,16 @@
       "author": "🍳",
       "post_link": "https://twitter.com/marie_usako/status/1341027817820024835",
       "media_link": "https://pbs.twimg.com/media/EpxJp-bUwAErr4c.png"
+    }
+  ],
+  "2020/12/22": [
+    {
+      "created_time": 1608625604000,
+      "author_handle": "marie_usako",
+      "author": "🍳",
+      "post_link": "https://twitter.com/marie_usako/status/1341299117490724865",
+      "media_link": "https://pbs.twimg.com/ext_tw_video_thumb/1341299099463606272/pu/img/QXvU7g3x8C_MFLkN.jpg",
+      "video_link": "https://video.twimg.com/ext_tw_video/1341299099463606272/pu/vid/270x270/h8P4IEW0C0vPcGgE.mp4?tag=10"
     }
   ]
 }

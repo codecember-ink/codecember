@@ -22,9 +22,9 @@
       <router-link
         v-for="i in 31"
         :key="i"
-        :to="isDayAvailiable(i) ? `/${year}/${i}${subRoute ? `/${subRoute}` : ''}` : ''"
+        :to="isDayAvailable(i) ? `/${year}/${i}${subRoute ? `/${subRoute}` : ''}` : ''"
         class="day-link "
-        :class="{ 'active': i == day, 'unavaliable': !isDayAvailiable(i) }"
+        :class="{ 'active': i == day, 'unavaliable': !isDayAvailable(i) }"
       >
         {{ i }}
       </router-link>
@@ -39,7 +39,7 @@ import { this_year, today, years_reverse, event_active, useDate } from '/~/logic
 
 const { year, day, subRoute } = useDate()
 
-const isDayAvailiable = (d: number) => {
+const isDayAvailable = (d: number) => {
   if (year.value === this_year && event_active)
     return d <= today
   return true

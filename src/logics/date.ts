@@ -7,7 +7,7 @@ const _now = dayjs()
 const DEC = 11
 
 export const start_year = 2020
-export const this_year = _now.month() >= DEC ? _now.year() : (_now.year() - 1)
+export const this_year = 2020
 
 export const event_active = _now.month() === DEC
 export const today = event_active ? _now.date() : 32
